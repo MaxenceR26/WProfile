@@ -467,7 +467,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #fd9042;
+  background: rgb(103, 57, 187);
   margin: 4px 10px;
 }
 .section-title p {
