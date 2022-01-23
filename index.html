@@ -63,37 +63,30 @@
   </section><!-- End Hero -->
 
   <main id="main">
-
     <!-- ======= About Section ======= -->
     <section id="about" class="abouts">
       <div class="container">
 
-        <div class="section-title" data-aos="zoom-out">
+        <div class="section-title aos-init aos-animate" data-aos="zoom-out">
           <h2>WProfile</h2>
           <p>Entre tes informations</p>
         </div>
 
-        <div class="row content" data-aos="fade-up">
+        <div class="row content aos-init aos-animate" data-aos="fade-up">
           <div class="col-lg-6">
-            <p>Pseudo : </p>
-            <input type="text" id="name" name="name" size="30" required>
-            <br></br>
-            <p>Languages : </p>
-            <input type="text" id="name" name="name" size="30" required>
+            <p>Pseudo : <span style="color: rgb(255, 34, 34);">*</span></p>
+            <input type="text" id="name" name="name" size="30" required="">
+            <br><br>
+            <p>Languages : <span style="color: rgb(255, 34, 34);">*</span></p>
+            <input type="text" id="name" name="name" size="30" required="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>Description : </p>
-            <input type="text" id="name" name="name" size="30" required>
-            <br></br>
-            <p>Informations ( Réseaux / Autres ) : </p>
-            <input type="text" id="name" name="name" size="30" required>
+            <p>Description : <span style="color: rgb(255, 34, 34);">*</span> <span>(</span><span style="color: rgb(255, 34, 34);">Minimum 40 Charactères</span>)</p>
+            <input type="text" id="name" name="name" size="30" minlength="40" required="">
+            <br><br>
+            <p>Selectionne une image ! ( <span style="color: rgb(255, 34, 34);">Tu n'es pas obligé, par-contre l'image par défaut sera comme celle d'en dessous</span> )</p>
+            <input type="file" id="inputfile" accept="image/*" multiple="">
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            <br>
-            <p>Selectionne une image ! ( Tu n'es pas obligé, par-contre l'image par défaut sera comme celle d'en dessous )</p>
-            <input type="file" id="inputfile" accept="image/*" multiple>
-          </div>
-
           <div id="button-container">
             <button type="submit" id="who-are-we" class="font-spec">Valider</button>
           </div>
@@ -106,7 +99,7 @@
 
         
 
-        <br></br>
+        <br><br>
         <h2 id="center">Voici un exemple grâce à <span style="color: rgb(162, 111, 255);">WProfile</span> :</h2>
         <p id="center">La qualité sur l'image n'est pas belle, car nous l'avons aggrandi ! Mais vous aurez une qualité magnifique !</p>
         
