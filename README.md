@@ -28,3 +28,8 @@ Ensuite il faudra faire :
 ## Exemple
 
 > ![WProfile](https://usefull-api.herokuapp.com/WProfile/MaxenceR26/Python,%20Java,%20Js/Je%20suis%20%C3%A2g%C3%A9%20de%2017%20ans,%20je%20suis%20passionn%C3%A9%20par%20l'informatique%20depuis%20petit)
+
+# Createurs
+
+https://www.github.com/nacreousdawn596
+https://www.github.com/MaxenceR26
